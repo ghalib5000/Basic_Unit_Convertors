@@ -7,3 +7,5 @@ a cli tool that has some basic unit convertors such as
 - volume finder
 - length convertors
 - price convertors
+- log
+- power
