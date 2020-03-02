@@ -13,13 +13,10 @@ script:
 - dir .\\bin\\Debug\\netcoreapp3.0
 - 7z a -tzip release.zip .\\bin\\Debug\\netcoreapp3.0
 - dir
-   
 deploy:
   provider: releases
- # overwrite:true
   api_key:
-    secure: "V433JNOZqFLeGGzdzP6DPSUOaMKIYHprQTKeFxa3PpnMxKDXeYcOs4qvdRsqPzcNHNsW1w/eN/yg6aOIFmCH2SqwPjSgSFxqVFFnBtZhN4N6GFAx690c95CCjdLfZ/JHJWZipak1xGSjSepZ3BVmjK84B8MVlcMuTfqhu6AyyaUwhEo1D2pSXq8CmFQtb7NZA0DGgxqSFlIfno4CEi7C/60mHulp6zpxOd69F/gAPLG5CcBRw1W0YDufRj8CMSfGTodOPOfEGGaX5L7Tcw2fHlTH18REQj/rYbhQNjjoP32/YEqyNAMbK1b54pU54gYtzkJpe7tXfJE+Pf9StVIDMWKwZQf6nF3vufpg8QgZtbCPo5SmVfHicECzC9Z7Ud9f1wSIo48R5wzmm4VQAF9ckdQ+J1q/S1puVSsZT0YcwO5uxGu1gk4UEn6z7bflBbit3LqH+TpAWhSqxGoLEadsKoKxf2CjqnaL7V9jqZL6lEugxOTuyEP2BwuR7RnvqHZlyo8UMA3io9XcpmGjBeaSocn5cvRBitajaJDMuUsrDP+QmAuqojtxQ7teGJZazshPVIvwBHRzxRbRfycGUSKyLVNMwjhMA4TB31V+78JZ/RuxkbbnNTOTlFEnwDB51WU4HQszGD0wKQN09ehoOp00uNZoJY5ltCwVVWP7tWv7GLg="
-  file: '.\\release.zip'
-  skip_cleanup: true
+    secure: FxLZSDKHMYRoYfAtjK0Bcj9vCPvKX8I63XGWcMaqLDLPx86QYW1LTAph76bDjdemVWYdIfIlcwY4Oy5l+0XrDqf0a/5Pft451M3EpvGrgNhujCl8Ktqp7PfzWXJW7Fq6GGJoapmbytbzARPPGZEubCXtkuE625RFnsG7rjSbvOrJGj+gLS7JtKUggnSCcN1BWJR4f2poDDqVG3jqTWzYKly/rVpNvkstM7cbSQm+iBToJeR7TYSWQe00X5GEa9w4aAYahaNdUMR7DjSqJjNfy8rD/mzJIPSIX71AtX6YiJ5AFcR8i4mc41goLRRhMlPreP11MkrPnQ4spbMKrddV63nbx/kNIYbb0nQK9nlOSdjrG2OrRvi86xqV5QywxuZcJp9pWPLeesE+KcCQYpK805CdVMdluqdu39Qbcrib2mv/BfRAkp7Xl9e8KYaJMX9QQTHcF5pmJzxMnMMqwU6B2MOLV8DNtr3HoHo0kJAGe//8dj2xbH0yoAo+VtjmU4DrrDz7dlpKuBfmHqZC4ZdWR1xptd85np+9XIt7urKjk8RVKR7aO+e4FyIHGkmu668wwxXyuVdMcbnYQuXdTfzLrv6CUEdrl3cgbNXXuq2BQgWy27a6TNgtIs91KhQ1CUR2YfIeg5m6Ojgin6FP4RpSrHFuERuhabuBUdNUj0pKqyM=
+  file: ".\\\\release.zip"
   on:
-    tags: true
+    repo: ghalib5000/Basic_Unit_Convertors
