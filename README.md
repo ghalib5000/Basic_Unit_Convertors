@@ -13,7 +13,7 @@ a cli tool that has some basic unit convertors such as
 this requires that you install [.net core 3.0](https://dotnet.microsoft.com/download/dotnet-core/3.0)
 
 # Usage
-open the command prompt int the release folder and type in
+open the command prompt in the release folder and type in
 ```cmd
 Cli_Interface_Test
 ```
